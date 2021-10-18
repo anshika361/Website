@@ -45,7 +45,61 @@ body {
     align-items: center;
 }
 
-header {
+
+/*header {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }*/
+  header {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    background: #283647;
+    box-sizing: border-box;
+    z-index: 9999;
+    position: absolute;
+    padding: 30px;
+}
+header .hover a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 50px;
+    transition: color 1s;
+    
+}
+  
+  .hover a{
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 30px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+  padding: 7px;
+  }
+  .hover a:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
+
+/*header {
     justify-content: space-evenly;
     width: 100%;
     display: flex;
@@ -73,7 +127,7 @@ header a {
 header a:hover {
     color: black;
     background-color: white;
-}
+}*/
 
 h1 {
     margin-top: 30px;
