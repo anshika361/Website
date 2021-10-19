@@ -75,7 +75,7 @@ header .hover a {
     border-radius: 30px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #fff;
+    color: #000;
     padding: 7px;
 }
 
