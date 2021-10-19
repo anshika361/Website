@@ -23,7 +23,7 @@ html::-webkit-scrollbar-thumb {
     )
 }
 
-/* reset browser default styling */
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -40,25 +40,10 @@ body {
     padding: 30px;
     margin: 0;
     display: flex;
-    /* change to row, you might like the style */
     flex-direction: column;
     align-items: center;
 }
 
-
-/*header {
-    width: 170px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    display: inline-block;
-  }*/
   header {
     justify-content: space-evenly;
     width: 100%;
@@ -69,7 +54,6 @@ body {
     position: fixed;
     top: 0;
     background: #283647;
-    box-sizing: border-box;
     z-index: 9999;
     position: absolute;
     padding: 30px;
