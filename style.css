@@ -80,7 +80,7 @@ header .hover a {
 }
 
 .hover a:hover {
-    box-shadow: 0 0 10px 0 #fff inset, 0 0 20px 2px #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 20px 2px #000;
     border: 3px solid #fff;
     background-color: #fff;
     color: #000;
