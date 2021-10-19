@@ -80,6 +80,7 @@ header .hover a {
     font-weight: 600;
     text-decoration: none;
     color: #ffffff;
+    background-color: transparent;
     margin: 30px;
     transition: color 1s;
     
