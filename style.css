@@ -23,7 +23,6 @@ html::-webkit-scrollbar-thumb {
     )
 }
 
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -44,7 +43,7 @@ body {
     align-items: center;
 }
 
-  header {
+header {
     justify-content: space-evenly;
     width: 100%;
     display: flex;
@@ -58,6 +57,7 @@ body {
     position: absolute;
     padding: 30px;
 }
+
 header .hover a {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,23 +66,23 @@ header .hover a {
     color: #ffffff;
     background-color: transparent;
     margin: 30px;
-    transition: color 1s;
-    
+    transition: color 1s;    
 }
   
-  .hover a{
+.hover a{
     background-color: transparent;
     border: 3px solid #00d7c3;
     border-radius: 30px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #00d7c3;
-  padding: 7px;
-  }
-  .hover a:hover {
+    padding: 7px;
+}
+
+.hover a:hover {
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
     border: 3px solid #00d7c3;
-  }
+}
 
 /*header {
     justify-content: space-evenly;
